@@ -10,6 +10,7 @@
 INCLUDE_DIR += -I$(BASE_DIR)/src/ext
 
 include $(BASE_DIR)/src/ext/inih/Makefile
+include $(BASE_DIR)/src/ext/charm/Makefile
 
 clean_all: liburing_clean hpc_emerg_clean
 
